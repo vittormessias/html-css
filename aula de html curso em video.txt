@@ -1,0 +1,48 @@
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+o computador só aceita sinais de ondas quadradas (0 e 1)
+TLDS - top level domains - GTLD - Generico - edu / io || CCTLD - Comercial: BR / US / UK / AR - .br / .us / .uk / .ar
+URL - uniform resource location - localizador de recurso unico
+	domínio
+	sub-domínio
+	TLDs
+	Caminho
+HTML (HYPERTEXT MARKUP(MARCAÇÃO) LANGUANGE)- Foco conteúdo: texto, imagens, videos, tabelas e listas - tudo focado em conteudo.
+CSS - Foco em design: cores, sombras, tamanhos, posicionamento.
+JS - interações: menus, animações, popups, validações.
+FRONT-END: client side - tudo que o usuario vê
+BACK-END: server side - tudo que o usuario não vê
+<br> break line
+para usar símbolos usamos & (e-comercial) 
+para usarmos <> codigo: &lt e &gt
+para usar emojis usamos &#x e em seguida o código do emoji
+formato de imagem: JPG / PNG
+JPG: compactação entre 30% e 50%: imagens mais leves / imagens fotográficas / deve ser sempre usado nos sites. 
+PNG: transparência, maior qualidade / deve ser usado para transparência nas fotos.
+icon sites: iconarchive / favicon.cc / favicon.io
+h1 vai até h6 - uma hierarquia semantica (significado). 
+o html5 foca em semantica, em significado e não em formas. 
+css foca em estilo e formas.
+<bdo dir="rtl"> escreve invertido
+<blockquote> para citações grandes, completas.
+<q> para citações pequenas, simples.
+<code> para formatações em códigos.
+dl = lista de definição
+dt = termo de definição
+dd = dado da definição
+formando: <dl><dt><dd></dd></dt></dl>
+-----------
+Cores ---------------------------------
+------------
+Primarias: Amarelo, vermelho e azul / Secundarias: Laranja, violeta e verde / Terciarias: todo o resto 
+Ferramentas: Adobe Color, Paletton, Coolors, ColorZilla.
+weight = peso
+width = tamanho 
+height = altura
+extensões = fonts ninja 
+whatfontis, fontsquirrel, myfonts
+----------------------
+header > nav
+main > section > article > aside
+footer
