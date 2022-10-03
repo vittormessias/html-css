@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat;
+            background-repeat: no-repeat;
             /* 
                auto = o navegador escolhe o tamanho de visualização da imagem
                contain = mostra 100 da imagem adaptando e sem cortar 
                cover = corta a imagem mas preenche os espaços da tela inteira
                */
+           /* background-size: cover;
+            background-attachment: fixed; */
+
+            /*
+            ShortHand - backgroud
+            color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -32,7 +40,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias nisi reiciendis ratione nihil amet, ab aliquid veritatis modi? Temporibus, vitae perspiciatis consequatur magni expedita provident minus nulla. Dicta, animi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolor mollitia cupiditate harum suscipit pariatur at laborum, corrupti rerum culpa atque dolore voluptate, neque repellendus molestiae hic quis reiciendis nobis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse molestias ea cupiditate accusamus sit unde rerum, autem hic, totam dolore repellendus officiis expedita similique suscipit dolor optio tenetur blanditiis et.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias nisi reiciendis ratione nihil amet, ab aliquid veritatis modi? Temporibus, vitae perspiciatis consequatur magni expedita provident minus nulla. Dicta, animi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolor mollitia cupiditate harum suscipit pariatur at laborum, corrupti rerum culpa atque dolore voluptate, neque repellendus molestiae hic quis reiciendis nobis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse molestias ea cupiditate accusamus sit unde rerum, autem hic, totam dolore repellendus officiis expedita similique suscipit dolor optio tenetur blanditiis et. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis velit molestias non perspiciatis ut officia excepturi ducimus consequuntur modi aspernatur, blanditiis quod. Qui quam ex mollitia quos aperiam ratione alias!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quis maxime odio reiciendis laborum ad, doloremque, quibusdam soluta provident hic minus delectus totam molestias officia sapiente facilis. Qui, blanditiis suscipit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quis, eveniet nobis corporis similique, eum, iste dolorum cupiditate commodi sunt dolores minus soluta dolorem aperiam pariatur corrupti fugit ex illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque a vero voluptates. Accusamus rem veniam ad facilis recusandae quidem quos natus, hic officiis repudiandae nemo blanditiis eveniet iusto numquam dignissimos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde consectetur consequuntur repellat blanditiis ullam eligendi, amet voluptatum dolorum quibusdam tempore, debitis ratione doloribus perspiciatis soluta eaque quidem odit distinctio. Accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti nesciunt earum voluptatum eligendi sit cupiditate, a eius quis cum non nobis sunt alias distinctio aperiam amet aliquam possimus necessitatibus.</p>
         
     </main>
 </body>
