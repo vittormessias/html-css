@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive
+}
+
+body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+    display: block;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+    display: block;
+    
+}
+
+p > a{
+    text-decoration: none;
+    color: white;
+}
+
+p > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin: auto;
+    background-color: white;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    display: block;
+}
+
+
+section.normal {
+    padding-bottom: 2em ;
+}
+
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+
+}
+
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+
+}
+
+section.imagem{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+}
